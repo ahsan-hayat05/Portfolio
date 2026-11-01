@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahsan Hayat | Frontend Developer</title>
+  <meta name="description" content="Portfolio of Your Name, a frontend developer building responsive web apps with HTML, CSS, JavaScript and React.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">AH.</a>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+    <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <!-- HERO: apna naam aur ek line likhein -->
+    <section id="home" class="hero">
+      <section id="home" class="hero">
+  <img src="ahsan.jpg" alt="Photo of Ahsan Hayat" class="avatar" width="140" height="140">
+  
+      <p class="hello">Hi, I'm</p>
+      <h1>Ahsan Hayat</h1>
+      <p class="role">Frontend developer building clean, responsive websites.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View my projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>I'm a frontend developer who builds with HTML, CSS, JavaScript and React. I enjoy turning designs into fast, mobile-friendly pages, and I'm looking for an internship where I can learn from a team and ship real features.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML5</li><li>CSS3</li><li>Tailwind CSS</li><li>Flexbox &amp; Grid</li><li>JavaScript (ES6+)</li>
+        <li>React.js</li><li>Git &amp; GitHub</li><li>Responsive design</li><li>REST APIs</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS: har project banne ke baad ek card copy karke yahan add karein -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Portfolio Website</h3>
+          <p>This site. Responsive layout, dark mode and a mobile menu, built without any framework.</p>
+          <p class="stack">HTML · CSS · JavaScript</p>
+          <div class="links">
+            <a href="#">Live demo</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
+        <article class="project">
+          <h3>To-Do App</h3>
+          <p>Add, edit, complete and delete tasks. Tasks are saved in localStorage so they stay after refresh.</p>
+          <p class="stack">JavaScript</p>
+          <div class="links">
+            <a href="#">Live demo</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
+        <article class="project">
+          <h3>Weather App</h3>
+          <p>Search any city and see live weather from an API, with loading and error states.</p>
+          <p class="stack">React · REST API</p>
+          <div class="links">
+            <a href="#">Live demo</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>I'm open to frontend internships. The quickest way to reach me is email.</p>
+      <div class="actions">
+        <a class="btn primary"
+   href="https://mail.google.com/mail/?view=cm&to=raoahsan458@gmail.com"target="_blank">raoahsan458@gmail.com</a>
+        <a class="btn" href="https://github.com/ahsan458" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://linkedin.com/in/ahsan-hayat-142983228" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ahsan Hayat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
