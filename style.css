@@ -1,4 +1,4 @@
-/* Rang yahan se badlein: sirf in variables ko change karna kaafi hai */
+
 :root {
   --bg: #f4f6f3;
   --surface: #ffffff;
@@ -51,7 +51,7 @@ a { color: inherit; }
 
 /* Layout */
 main, .footer { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
-.hero { padding: 6rem 0 5rem; }
+.hero { padding: 5rem 0 5rem; }
 .hello { color: var(--muted); font-size: 1.2rem; }
 .hero h1 { font-size: clamp(3rem, 9vw, 5.5rem); font-weight: 700; margin: 0.2rem 0 1rem; letter-spacing: -0.02em; }
 .role { font-size: 1.35rem; max-width: 34ch; color: var(--muted); }
